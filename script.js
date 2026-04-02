@@ -787,7 +787,7 @@ function animatePlanetSystem() {
 let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
-  const audioSources = ["https://youtu.be/FKijnRja8is?si=KVoPK3jOC2i353SW"];
+  const audioSources = ["music.mp3"];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
   const selectedSrc = audioSources[randomIndex];
